@@ -1,0 +1,83 @@
+body {
+  background-color: #380B61; //#210B61;
+}
+
+.outline {
+  position:relative;
+  background-color: #013ADF; // #2E64FE;
+  color: #F6E3CE;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  margin-bottom:100px; 
+  width: 340px;
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: -15px 15px 20px #151515, inset 0 0 30px #000000;
+  text-shadow: -3px 3px 5px #000000;
+  border-radius: 20px;
+  perspective: 1000px;
+  transform: rotateY(5deg);
+}
+
+.numbers {
+  width:300px;
+  position:relative;
+  background-color: #58ACFA;
+  padding: 10px;
+  margin-top: 20px;
+  border-radius: 10px;
+  text-align:center;
+}
+
+.display {
+  padding: 3px;
+  box-shadow: inset -8px 8px 4px #2C3329; //#2D57E5; 
+  background-color: #4B9030;
+  text-align: right;
+  padding-right: 9px;
+  color: black;
+  border-color: white;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+  margin-bottom: 25px;
+  text-shadow: 0 0 0 #000000;
+  font-family: "orbitron";
+  margin-right:6px;
+  margin-left:6px;
+}
+
+.buttons {
+  float: justify;
+  color: black;
+}
+
+.b,.c,.n {
+  font-size: 25px;
+  margin: 2px;
+  width: 60px;
+  height: 50px;
+  border-radius: 10px;
+  position:relative;
+  box-shadow: inset -2px 2px 7px #2D57E5;
+}
+
+#one,#two,#three {
+  vertical-align: top;
+}
+
+#zero {
+  width: 132px;
+}
+
+#equal {
+  height: 105px;
+}
+
+.zd{
+  float:left;
+  margin-left:0px;
+  margin-top:-55px;
+}
